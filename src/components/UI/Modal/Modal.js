@@ -1,8 +1,17 @@
-import React from 'react';
+import React ,{Fragment} from 'react';
 import './Modal.css'
-const modal =(props)=>(
+import Backdrop from '../Backdrop/Backdrop';
 
-    <div className="Modal">{props.children}</div>
+const modal =(props)=>(
+<Fragment>
+    <Backdrop show={props.show}  clicked={props.clicked}/>
+    <div className="Modal"
+         style ={{transform: props.show ? 'translateY(0)':'translateY(-100vh)',visibility:props.show ? 'visible':'hidden'}}
+        >
+        {props.children}
+    </div>
+</Fragment>
+
 );
 
 export default modal;

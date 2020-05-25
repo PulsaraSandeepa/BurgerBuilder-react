@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f569672e-f2de-4c89-ab8c-b4b58561855d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +85,7 @@
       <workItem from="1590227766298" duration="14371000" />
       <workItem from="1590308032855" duration="17783000" />
       <workItem from="1590385349591" duration="4496000" />
+      <workItem from="1590404916577" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="created BurgerIngredients component in lec10">
       <created>1589994250971</created>
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590335799643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished the basics">
+      <created>1590404944972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590404944973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +125,8 @@
     <MESSAGE value="created BurgerIngredients component in lec10" />
     <MESSAGE value="Checkout button, order summary included" />
     <MESSAGE value="Drwer Toggle completed #35" />
-    <option name="LAST_COMMIT_MESSAGE" value="Drwer Toggle completed #35" />
+    <MESSAGE value="Finished the basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the basics" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590309778502">
@@ -130,14 +137,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590052497796" />
-    <state x="580" y="133" key="CommitChangelistDialog2" timestamp="1590335798857">
+    <state x="580" y="133" key="CommitChangelistDialog2" timestamp="1590404944110">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="580" y="133" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1590335798857" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1590335810693">
+    <state x="580" y="133" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1590404944110" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1590404969742">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590335810693" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590404969742" />
     <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1590386083422">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

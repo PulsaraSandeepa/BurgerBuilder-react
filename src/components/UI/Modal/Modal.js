@@ -1,17 +1,30 @@
-import React ,{Fragment} from 'react';
+import React, {Fragment, Component} from 'react';
 import './Modal.css'
 import Backdrop from '../Backdrop/Backdrop';
 
-const modal =(props)=>(
+class Modal extends Component{
+
+    shouldComponentUpdate(nextProps, nextState) {
+        return nextProps.show !== this.props.show;
+    }
+    componentDidUpdate() {
+        console.log("[Modal] will update");
+    }
+
+    render() {
+
+    return(
+
 <Fragment>
-    <Backdrop show={props.show}  clicked={props.clicked}/>
-    <div className="Modal"
-         style ={{transform: props.show ? 'translateY(0)':'translateY(-100vh)',visibility:props.show ? 'visible':'hidden'}}
-        >
-        {props.children}
-    </div>
+<Backdrop show={this.props.show}  clicked={this.props.clicked}/>
+<div className="Modal"
+style ={{transform: this.props.show ? 'translateY(0)' : 'translateY(-100vh)', visibility: this.props.show ? 'visible' : 'hidden'}}
+>
+{this.props.children}
+</div>
 </Fragment>
 
-);
-
-export default modal;
+)
+}
+}
+export default Modal;

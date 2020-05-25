@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f569672e-f2de-4c89-ab8c-b4b58561855d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/burger-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Logo/Logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Logo/Logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/Menu/Menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/Menu/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/SideDrawer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/SideDrawer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuild.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +85,8 @@
       <workItem from="1589981372385" duration="6603000" />
       <workItem from="1590050937769" duration="20724000" />
       <workItem from="1590227766298" duration="14371000" />
-      <workItem from="1590308032855" duration="16935000" />
+      <workItem from="1590308032855" duration="17783000" />
+      <workItem from="1590385349591" duration="4496000" />
     </task>
     <task id="LOCAL-00001" summary="created BurgerIngredients component in lec10">
       <created>1589994250971</created>
@@ -122,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590086111859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Drwer Toggle completed #35">
+      <created>1590335799643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590335799643</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +118,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created BurgerIngredients component in lec10" />
     <MESSAGE value="Checkout button, order summary included" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout button, order summary included" />
+    <MESSAGE value="Drwer Toggle completed #35" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drwer Toggle completed #35" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590309778502">
@@ -142,18 +130,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590052497796" />
-    <state x="580" y="133" key="CommitChangelistDialog2" timestamp="1590086111064">
+    <state x="580" y="133" key="CommitChangelistDialog2" timestamp="1590335798857">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="580" y="133" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1590086111064" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1590086122513">
+    <state x="580" y="133" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1590335798857" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1590335810693">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590086122513" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1590308559971">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590335810693" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1590386083422">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590308559971" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590386083422" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1590333641275">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f569672e-f2de-4c89-ab8c-b4b58561855d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Burger/Burger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Burger/BurgerIngredients/BurgerIngredients.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Burger/BurgerIngredients/BurgerIngredients.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1c4mFlMlUWaDV0aOXleQhla5ner" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/BurgerBuilder" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +45,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pulsa\IdeaProjects\burger-builder\src\components\BurgerBuilder" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pulsa\IdeaProjects\burger-builder\src\components\Navigation\SideDrawer" />
+      <recent name="C:\Users\pulsa\IdeaProjects\burger-builder\src\components\Layout" />
+      <recent name="C:\Users\pulsa\IdeaProjects\burger-builder\src\assets\Images" />
+      <recent name="C:\Users\pulsa\IdeaProjects\burger-builder\src\containers" />
       <recent name="C:\Users\pulsa\IdeaProjects\burger-builder\src\components" />
     </key>
   </component>
@@ -80,25 +82,73 @@
       <option name="presentableId" value="Default" />
       <updated>1589796138776</updated>
       <workItem from="1589796143278" duration="1797000" />
-      <workItem from="1589981372385" duration="6380000" />
+      <workItem from="1589981372385" duration="6603000" />
+      <workItem from="1590050937769" duration="20724000" />
+      <workItem from="1590227766298" duration="14371000" />
+      <workItem from="1590308032855" duration="17783000" />
+      <workItem from="1590385349591" duration="4496000" />
     </task>
+    <task id="LOCAL-00001" summary="created BurgerIngredients component in lec10">
+      <created>1589994250971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589994250971</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Checkout button, order summary included">
+      <created>1590086111859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590086111859</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Drwer Toggle completed #35">
+      <created>1590335799643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590335799643</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created BurgerIngredients component in lec10" />
+    <MESSAGE value="Checkout button, order summary included" />
+    <MESSAGE value="Drwer Toggle completed #35" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drwer Toggle completed #35" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="709" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589987479172">
+    <state x="709" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590309778502">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="709" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1589987479172" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589981374052">
+    <state x="709" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1590309778502" />
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590052497796">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589981374052" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1589993063650">
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590052497796" />
+    <state x="580" y="133" key="CommitChangelistDialog2" timestamp="1590335798857">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589993063650" />
+    <state x="580" y="133" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1590335798857" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1590335810693">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590335810693" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1590386083422">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590386083422" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1590333641275">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1590333641275" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1590329250736">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1590329250736" />
   </component>
 </project>

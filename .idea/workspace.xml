@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f569672e-f2de-4c89-ab8c-b4b58561855d" name="Default Changelist" comment="run build">
+    <list default="true" id="f569672e-f2de-4c89-ab8c-b4b58561855d" name="Default Changelist" comment="deployed the project">
+      <change afterPath="$PROJECT_DIR$/src/axios-orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/withErrorHandler/withErrorhandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuild.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -89,6 +96,9 @@
       <workItem from="1590385349591" duration="4496000" />
       <workItem from="1590404916577" duration="70000" />
       <workItem from="1590424272400" duration="753000" />
+      <workItem from="1590427685491" duration="585000" />
+      <workItem from="1590514222893" duration="82000" />
+      <workItem from="1590673262169" duration="11557000" />
     </task>
     <task id="LOCAL-00001" summary="created BurgerIngredients component in lec10">
       <created>1589994250971</created>
@@ -156,10 +166,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590424334864" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1590386083422">
+    <state x="511" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1590514239137">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590386083422" />
+    <state x="511" y="369" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590514239137" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1590333641275">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

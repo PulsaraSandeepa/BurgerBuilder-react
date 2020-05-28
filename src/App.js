@@ -1,13 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Layout from './components/Layout/Layout';
 import BurgerBuild from './containers/BurgerBuilder/BurgerBuild';
-function App() {
-  return (
-      <Layout>
-          <BurgerBuild/>
-          Test
-      </Layout>
-  );
+class App extends Component{
+render(){
+        return (
+            <Layout>
+               <BurgerBuild/>
+            </Layout>
+        );
+ 
+    }
 }
 
 export default App;
